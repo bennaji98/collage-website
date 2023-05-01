@@ -288,3 +288,35 @@ header .fa{
     opacity: 1;
 }
 
+                                                    /*------ facilities ------ */
+
+
+.facilities {
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}                                                    
+
+.facilities-col {
+
+    flex-basis: 31%;
+    text-align: left;    
+}
+
+.facilities img {
+
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities h3 {
+
+    padding: 15px 0px 10px;
+}
+
+.facilities p {
+
+    padding: 0;
+}
