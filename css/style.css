@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;    
+}
+
+header{
+
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30, 0.7)),url(../img/banner.png);
+    background-size: cover;
+    /* background-position: center; */
+    height: 100vh; /*kir*/
+    width: 100%;
+    padding: 0px 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 3%;
+}
+
+nav img {
+
+    width: 150px;
+}
+
+.nav-links li {
+
+    display: inline;
+    padding: 0px 20px;
+    color: #fff;
+}
+
+.nav-links li a {
+
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+}
