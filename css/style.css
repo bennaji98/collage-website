@@ -196,9 +196,9 @@ header .fa{
 .row {
     
     display: flex;
-    margin-top: 5%;
     padding: 20px;
     justify-content: space-between;
+    margin-top: 8%;
 }
 
 .course-col {
@@ -243,6 +243,7 @@ header .fa{
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    margin-bottom: 5%;
 }
 
 .campus-col img {
@@ -302,7 +303,8 @@ header .fa{
 .facilities-col {
 
     flex-basis: 31%;
-    text-align: left;    
+    text-align: left;
+    margin-bottom: 5%;    
 }
 
 .facilities img {
