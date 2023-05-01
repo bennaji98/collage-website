@@ -3,7 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins" , sans-serif;  
-    overflow: hidden;  
+    overflow-x: hidden;  
+}
+
+h1{
+    
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
 }
 
 
@@ -25,7 +39,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3% 3%;
+    padding: 1.5% 3%;
 }
 
 nav img {
@@ -167,3 +181,52 @@ header .fa{
     }
 
 }
+
+                                                    /*------ course ------ */
+
+
+.course {
+
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.row {
+    
+    display: flex;
+    margin-top: 5%;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.course-col {
+
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+
+.course-col:hover{
+
+    box-shadow: 0px 0px 15px #726e6eb2;
+}
+
+@media(max-width:700px){
+
+    .row {
+
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+                                                    /*------ campus ------ */
+
+
+                                                    
