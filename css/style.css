@@ -209,6 +209,7 @@ header .fa{
     padding: 20px 12px;
     margin-bottom: 5%;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .course-col:hover{
@@ -245,6 +246,7 @@ header .fa{
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 5%;
+    cursor: pointer;
 }
 
 .campus-col img {
@@ -371,4 +373,81 @@ header .fa{
 
     color: #f44336;
 
+}
+
+@media(max-width:700px){
+
+    .testimonial-col{
+
+        padding: 15px;
+    }
+    
+    .testimonial-col img {
+
+        margin-right: 15px;
+    }
+}
+
+                                                    /*------ facilities ------ */
+
+
+.cta {
+
+    background: linear-gradient(rgba(4,9, 30, 0.7),rgba(4,9,30, 0.7)), url(../img/banner2.jpg);
+    width: 80%;
+    margin: 130px auto;
+    text-align: center;
+    background-size: cover;
+    padding: 80px 100px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.cta h1 {
+
+    margin-bottom: 40px;
+}
+
+@media(max-width:700px){
+
+    .cta {
+
+        padding: 80px 20px;
+    }
+
+    .cta h1 {
+
+        font-size: 24px;
+    }
+}
+
+
+                                                    /*------ footer ------ */
+
+
+footer {
+
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px 30px;
+}
+
+footer .fa {
+
+    color: #f44336;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer h3 {
+
+    margin: 15px 0px 20px;
+    font-weight: 600px;
+}
+
+footer div {
+
+    margin: 20px 0px 20px 20px;
 }
