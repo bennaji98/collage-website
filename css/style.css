@@ -198,7 +198,7 @@ header .fa{
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .course-col {
@@ -222,6 +222,7 @@ header .fa{
 
         flex-direction: column;
         gap: 30px;
+        margin-top: 8%;
     }
 }
 
@@ -321,4 +322,53 @@ header .fa{
 .facilities p {
 
     padding: 0;
+}
+
+                                                    /*------ facilities ------ */
+
+
+.testimonial {
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.testimonial-col {
+
+    flex-basis: 44%;
+    border-radius: 10px;
+    background-color: #fff3f3;
+    padding: 25px;
+    display: flex;
+}
+
+.testimonial-col img {
+
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.testimonial-col div {
+
+    text-align: left;
+}
+
+.testimonial-col p {
+
+    padding: 0;
+}
+
+.testimonial-col h3 {
+
+    margin: 15px 0;
+}
+
+.testimonial-col .fa {
+
+    color: #f44336;
+
 }
